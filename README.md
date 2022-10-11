@@ -1,2 +1,2 @@
 # Contrast-Pattern-Mining
-A declarative aproach to Contrast Pattern Mining in Answer Set Programming (ASP)
+A declarative approach to Contrast Pattern Mining in Answer Set Programming (ASP)
