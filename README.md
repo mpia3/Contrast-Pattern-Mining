@@ -19,12 +19,12 @@ Python:
 pyexcel-cli, pyexcel-xls, pyexcel-xlsx (to manage excel files).
 
 For running the solution adopted on Windows:
-Linux subsystem for Windows (Ubuntu 20.04.4)
-Download miniconda and after the installation type on Ubuntu terminal the following commands:
-conda create –n potassco –c conda-forge clingo=5.4.0
-conda activate potassco
-pip install pyexcel-cli
-pip install pyexcel-xls
-pip install pyexcel-xlsx
+1. Linux subsystem for Windows (Ubuntu 20.04.4) 
+2. Download miniconda and after the installation type on Ubuntu terminal the following commands:
+''conda create –n potassco –c conda-forge clingo=5.4.0'' then
+''conda activate potassco''
+3. pip install pyexcel-cli
+4. pip install pyexcel-xls
+5. pip install pyexcel-xlsx
 
 for more information see: https://potassco.org/clingo/
