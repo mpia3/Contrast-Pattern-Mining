@@ -1,0 +1,48 @@
+class=out_call minSup=100(10 percent), maxLenght=3, minDiff=0, 1000 instances
+clingo version 5.4.0
+Reading from ...files/Karen/Karen_transactions_1000.lp ...
+Solving...
+Answer: 1
+in_pattern(street_b(none)) absolute_diff(60)
+Answer: 2
+in_pattern(caller(karen_cook_mcnally)) absolute_diff(430)
+Answer: 3
+in_pattern(street_b(none)) in_pattern(caller(karen_cook_mcnally)) absolute_diff(430)
+Answer: 4
+in_pattern(caller(karen_cook_mcnally)) in_pattern(time(evening)) absolute_diff(129)
+Answer: 5
+in_pattern(street_b(none)) in_pattern(caller(karen_cook_mcnally)) in_pattern(time(evening)) absolute_diff(129)
+Answer: 6
+in_pattern(time(evening)) absolute_diff(24)
+Answer: 7
+in_pattern(street_b(none)) in_pattern(time(evening)) absolute_diff(24)
+Answer: 8
+in_pattern(time(afternoon)) absolute_diff(34)
+Answer: 9
+in_pattern(street_b(none)) in_pattern(time(afternoon)) absolute_diff(34)
+Answer: 10
+in_pattern(caller(karen_cook_mcnally)) in_pattern(time(afternoon)) absolute_diff(202)
+Answer: 11
+in_pattern(street_b(none)) in_pattern(caller(karen_cook_mcnally)) in_pattern(time(afternoon)) absolute_diff(202)
+Answer: 12
+in_pattern(weekday(4)) absolute_diff(14)
+Answer: 13
+in_pattern(street_b(none)) in_pattern(weekday(4)) absolute_diff(14)
+Answer: 14
+in_pattern(weekday(4)) in_pattern(caller(karen_cook_mcnally)) absolute_diff(126)
+Answer: 15
+in_pattern(street_b(none)) in_pattern(weekday(4)) in_pattern(caller(karen_cook_mcnally)) absolute_diff(126)
+Answer: 16
+in_pattern(time(morning)) absolute_diff(37)
+Answer: 17
+in_pattern(street_b(none)) in_pattern(time(morning)) absolute_diff(37)
+Answer: 18
+in_pattern(time(morning)) in_pattern(caller(karen_cook_mcnally)) absolute_diff(103)
+Answer: 19
+in_pattern(street_b(none)) in_pattern(time(morning)) in_pattern(caller(karen_cook_mcnally)) absolute_diff(103)
+SATISFIABLE
+
+Models       : 19
+Calls        : 1
+Time         : 16.408s (Solving: 6.12s 1st Model: 0.09s Unsat: 5.56s)
+CPU Time     : 16.358s
