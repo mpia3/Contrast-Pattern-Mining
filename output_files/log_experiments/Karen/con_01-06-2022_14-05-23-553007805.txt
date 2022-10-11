@@ -1,0 +1,52 @@
+class=in_call minSup=10(10 percent), maxLenght=3, minDiff=0, 100 instances
+clingo version 5.4.0
+Reading from ..._files/Karen/Karen_transactions_100.lp ...
+Solving...
+Answer: 1
+in_pattern(karen_cook_mcnally) absolute_diff(24)
+Answer: 2
+in_pattern(4) absolute_diff(24)
+Answer: 3
+in_pattern(karen_cook_mcnally) in_pattern(4) absolute_diff(24)
+Answer: 4
+in_pattern((7,9,2040)) absolute_diff(24)
+Answer: 5
+in_pattern(karen_cook_mcnally) in_pattern((7,9,2040)) absolute_diff(24)
+Answer: 6
+in_pattern(4) in_pattern((7,9,2040)) absolute_diff(24)
+Answer: 7
+in_pattern(karen_cook_mcnally) in_pattern(4) in_pattern((7,9,2040)) absolute_diff(24)
+Answer: 8
+in_pattern(afternoon) absolute_diff(18)
+Answer: 9
+in_pattern(karen_cook_mcnally) in_pattern(afternoon) absolute_diff(18)
+Answer: 10
+in_pattern(4) in_pattern(afternoon) absolute_diff(18)
+Answer: 11
+in_pattern(karen_cook_mcnally) in_pattern(4) in_pattern(afternoon) absolute_diff(18)
+Answer: 12
+in_pattern(afternoon) in_pattern((7,9,2040)) absolute_diff(18)
+Answer: 13
+in_pattern(karen_cook_mcnally) in_pattern(afternoon) in_pattern((7,9,2040)) absolute_diff(18)
+Answer: 14
+in_pattern(4) in_pattern(afternoon) in_pattern((7,9,2040)) absolute_diff(18)
+Answer: 15
+in_pattern(morning) absolute_diff(2)
+Answer: 16
+in_pattern(karen_cook_mcnally) in_pattern(morning) absolute_diff(2)
+Answer: 17
+in_pattern(morning) in_pattern(4) absolute_diff(2)
+Answer: 18
+in_pattern(karen_cook_mcnally) in_pattern(morning) in_pattern(4) absolute_diff(2)
+Answer: 19
+in_pattern(morning) in_pattern((7,9,2040)) absolute_diff(2)
+Answer: 20
+in_pattern(karen_cook_mcnally) in_pattern(morning) in_pattern((7,9,2040)) absolute_diff(2)
+Answer: 21
+in_pattern(morning) in_pattern(4) in_pattern((7,9,2040)) absolute_diff(2)
+SATISFIABLE
+
+Models       : 21
+Calls        : 1
+Time         : 0.208s (Solving: 0.03s 1st Model: 0.00s Unsat: 0.01s)
+CPU Time     : 0.158s

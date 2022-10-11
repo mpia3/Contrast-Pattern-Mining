@@ -1,0 +1,28 @@
+class=out_call minSup=100(10 percent), maxLenght=3, minDiff=0, 1000 instances
+clingo version 5.4.0
+Reading from ...files/Karen/Karen_transactions_1000.lp ...
+Solving...
+Answer: 1
+in_pattern(karen_cook_mcnally) absolute_diff(60)
+Answer: 2
+in_pattern(afternoon) absolute_diff(34)
+Answer: 3
+in_pattern(karen_cook_mcnally) in_pattern(afternoon) absolute_diff(34)
+Answer: 4
+in_pattern(morning) absolute_diff(37)
+Answer: 5
+in_pattern(karen_cook_mcnally) in_pattern(morning) absolute_diff(37)
+Answer: 6
+in_pattern(evening) absolute_diff(24)
+Answer: 7
+in_pattern(karen_cook_mcnally) in_pattern(evening) absolute_diff(24)
+Answer: 8
+in_pattern(4) absolute_diff(8)
+Answer: 9
+in_pattern(karen_cook_mcnally) in_pattern(4) absolute_diff(8)
+SATISFIABLE
+
+Models       : 9
+Calls        : 1
+Time         : 12.599s (Solving: 4.54s 1st Model: 0.04s Unsat: 4.07s)
+CPU Time     : 12.509s
