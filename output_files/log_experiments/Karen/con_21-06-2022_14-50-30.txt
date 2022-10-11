@@ -1,0 +1,10 @@
+class=out_call minSup=500(50 percent), maxLenght=3, minDiff=0, 1000 instances
+clingo version 5.4.0
+Reading from ...files/Karen/Karen_transactions_1000.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 5.421s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 5.362s

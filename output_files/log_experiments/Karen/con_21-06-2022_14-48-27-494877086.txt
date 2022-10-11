@@ -1,0 +1,38 @@
+class=out_call minSup=30(30 percent), maxLenght=3, minDiff=0, 100 instances
+clingo version 5.4.0
+Reading from ..._files/Karen/Karen_transactions_100.lp ...
+Solving...
+Answer: 1
+in_pattern(date(7,9,2040)) absolute_diff(2)
+Answer: 2
+in_pattern(weekday(4)) absolute_diff(2)
+Answer: 3
+in_pattern(date(7,9,2040)) in_pattern(weekday(4)) absolute_diff(2)
+Answer: 4
+in_pattern(caller(karen_cook_mcnally)) absolute_diff(51)
+Answer: 5
+in_pattern(date(7,9,2040)) in_pattern(caller(karen_cook_mcnally)) absolute_diff(51)
+Answer: 6
+in_pattern(weekday(4)) in_pattern(caller(karen_cook_mcnally)) absolute_diff(51)
+Answer: 7
+in_pattern(date(7,9,2040)) in_pattern(weekday(4)) in_pattern(caller(karen_cook_mcnally)) absolute_diff(51)
+Answer: 8
+in_pattern(time(afternoon)) absolute_diff(10)
+Answer: 9
+in_pattern(date(7,9,2040)) in_pattern(time(afternoon)) absolute_diff(10)
+Answer: 10
+in_pattern(weekday(4)) in_pattern(time(afternoon)) absolute_diff(10)
+Answer: 11
+in_pattern(date(7,9,2040)) in_pattern(weekday(4)) in_pattern(time(afternoon)) absolute_diff(10)
+Answer: 12
+in_pattern(caller(karen_cook_mcnally)) in_pattern(time(afternoon)) absolute_diff(37)
+Answer: 13
+in_pattern(date(7,9,2040)) in_pattern(caller(karen_cook_mcnally)) in_pattern(time(afternoon)) absolute_diff(37)
+Answer: 14
+in_pattern(weekday(4)) in_pattern(caller(karen_cook_mcnally)) in_pattern(time(afternoon)) absolute_diff(37)
+SATISFIABLE
+
+Models       : 14
+Calls        : 1
+Time         : 0.122s (Solving: 0.01s 1st Model: 0.00s Unsat: 0.01s)
+CPU Time     : 0.101s

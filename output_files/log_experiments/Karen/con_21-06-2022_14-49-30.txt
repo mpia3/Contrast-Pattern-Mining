@@ -1,0 +1,12 @@
+class=in_call minSup=200(20 percent), maxLenght=3, minDiff=0, 1000 instances
+clingo version 5.4.0
+Reading from ...files/Karen/Karen_transactions_1000.lp ...
+Solving...
+Answer: 1
+in_pattern(callee(karen_cook_mcnally)) absolute_diff(216)
+SATISFIABLE
+
+Models       : 1
+Calls        : 1
+Time         : 6.967s (Solving: 0.76s 1st Model: 0.03s Unsat: 0.72s)
+CPU Time     : 6.943s
