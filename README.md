@@ -27,4 +27,4 @@ For running the solution adopted on Windows:
 4. pip install pyexcel-xls
 5. pip install pyexcel-xlsx
 
-for more information see: https://potassco.org/clingo/
+for more detail about clingo tool see: https://potassco.org/clingo/
