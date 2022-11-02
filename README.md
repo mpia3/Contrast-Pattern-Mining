@@ -19,4 +19,4 @@ For running the solution adopted on Windows:
 for more detail about clingo tool see: https://potassco.org/clingo/
 
 ## Acknowledgments
-This is an extract from Gioacchino Sterlicchio's Master Degree thesis in Cybersecurity at University of Bari. This work is based from COST Action 17124 ``Digital forensics: evidence analysis via intelligent systems and practices (DigForASP)'', supported by COST (European Cooperation in Science and Technology). Special thanks to Prof. Francesca Alessandra Lisi, from University of Bari, supervisor of the master's degree thesis.
+This is an extract from Gioacchino Sterlicchio's master degree thesis in Cybersecurity at University of Bari. This work is based from COST Action 17124 ``Digital forensics: evidence analysis via intelligent systems and practices (DigForASP)'', supported by COST (European Cooperation in Science and Technology). Special thanks to Prof. Francesca Alessandra Lisi, from University of Bari, supervisor of the master's degree thesis.
