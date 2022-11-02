@@ -3,12 +3,8 @@ A declarative approach to Contrast Pattern Mining in Answer Set Programming (ASP
 
 ## Contents
 - folder 'asp_encodigs': contrast pattern mining encoding
-- folder 'data': datasets used (xls/xlsx format)
 - folder 'experimentation_results': files with experiments results
-- folder 'output_files': instances for contrast pattern mining
 - folder 'submodules': python script for contrast pattern mining preprocessing
-- 'run_preprocessing_contrast_mining.sh': shell script for preprocessing dataset in a ASP transactions syntax
-- 'run_scalability_test_contrast_mining.sh': shell script for contrast pattern mining scalability experimentation
 
 ## Setup
 
