@@ -3,7 +3,7 @@ A declarative approach to Contrast Pattern Mining in Answer Set Programming (ASP
 
 ## Contents
 - folder 'asp_encodigs': contrast pattern mining encoding
-- folder 'experimentation_results': files with experiments results
+- folder 'experiments_results': files with experiments results
 - folder 'submodules': python script for contrast pattern mining preprocessing
 
 ## Setup
