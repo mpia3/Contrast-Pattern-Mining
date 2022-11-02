@@ -97,5 +97,5 @@ Output like this:
   Time         : 0.050s (Solving: 0.01s 1st Model: 0.00s Unsat: 0.00s)
   CPU Time     : 0.021s"
   
-- instance.lp: problem definition
+- normal_cancer_db.lp: problem definition
 - absolute_emerging.lp: contrast patterns generator
