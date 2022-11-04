@@ -21,8 +21,7 @@ for more detail about clingo tool see: https://potassco.org/clingo/
 ## Example
 From the command line run: "clingo asp_encodings/absolute_emerging.lp examples/normal_cancer_db.lp -c minSup=2 -c maxLength=3 -c class=normal -c minDiff=0 -c minLength=1 -n0"
 
-Output like this:
-
+Output like this:  
 "clingo version 5.4.0
 
   Reading from absolute_emerging.lp ...
