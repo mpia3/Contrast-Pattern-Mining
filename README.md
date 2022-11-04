@@ -23,7 +23,7 @@ From the command line run: "clingo asp_encodings/absolute_emerging.lp examples/n
 
 Output like this:  
 "clingo version 5.4.0  
-  Reading from absolute_emerging.lp ...
+  Reading from absolute_emerging.lp ...  
   Solving...  
   Answer: 1  
   in_pattern(g2(h)) absolute_diff(0)  
@@ -43,46 +43,9 @@ Output like this:
   in_pattern(g4(h)) in_pattern(g1(h)) absolute_diff(0)  
   Answer: 9  
   in_pattern(g3(l)) in_pattern(g4(h)) in_pattern(g1(h)) absolute_diff(0)  
-  Answer: 10  
-  in_pattern(g2(h)) in_pattern(g4(h)) absolute_diff(1)  
-  Answer: 11  
-  in_pattern(g2(h)) in_pattern(g3(l)) absolute_diff(1)  
-  Answer: 12  
-  in_pattern(g2(h)) in_pattern(g3(l)) in_pattern(g4(h)) absolute_diff(0)  
-  Answer: 13  
-  in_pattern(g2(h)) in_pattern(g3(l)) in_pattern(g1(h)) absolute_diff(1)  
-  Answer: 14  
-  in_pattern(g2(h)) in_pattern(g4(h)) in_pattern(g1(h)) absolute_diff(1)  
-  Answer: 15  
-  in_pattern(g4(l)) absolute_diff(1)  
-  Answer: 16  
-  in_pattern(g2(h)) in_pattern(g4(l)) absolute_diff(1)  
-  Answer: 17  
-  in_pattern(g4(l)) in_pattern(g1(h)) absolute_diff(1)  
-  Answer: 18  
-  in_pattern(g2(h)) in_pattern(g4(l)) in_pattern(g1(h)) absolute_diff(1)  
-  Answer: 19  
-  in_pattern(g3(h)) absolute_diff(1)  
-  Answer: 20  
-  in_pattern(g2(h)) in_pattern(g3(h)) absolute_diff(1)  
-  Answer: 21  
-  in_pattern(g1(h)) in_pattern(g3(h)) absolute_diff(1)  
-  Answer: 22  
-  in_pattern(g2(h)) in_pattern(g1(h)) in_pattern(g3(h)) absolute_diff(1)  
-  Answer: 23  
-  in_pattern(g4(l)) in_pattern(g3(h)) absolute_diff(0)  
-  Answer: 24  
-  in_pattern(g2(h)) in_pattern(g4(l)) in_pattern(g3(h)) absolute_diff(0)  
-  Answer: 25  
-  in_pattern(g4(l)) in_pattern(g1(h)) in_pattern(g3(h)) absolute_diff(1)  
-  Answer: 26  
-  in_pattern(g1(l)) in_pattern(g2(l)) absolute_diff(1)  
-  Answer: 27  
-  in_pattern(g1(l)) in_pattern(g3(l)) in_pattern(g2(l)) absolute_diff(1)  
-  Answer: 28  
-  in_pattern(g1(l)) in_pattern(g4(h)) in_pattern(g2(l)) absolute_diff(1)  
-  Answer: 29  
-  in_pattern(g1(l)) absolute_diff(1)  
+  .  
+  .  
+  .  
   Answer: 30  
   in_pattern(g1(l)) in_pattern(g2(h)) absolute_diff(2)  
   Answer: 31  
