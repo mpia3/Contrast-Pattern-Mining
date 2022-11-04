@@ -3,7 +3,7 @@ A declarative approach to Contrast Pattern Mining in Answer Set Programming (ASP
 
 ## Contents
 - folder 'asp_encodigs': contrast pattern mining encoding
-- folder 'experiments_results': experiments results and charts
+- folder 'examples': contrast pattern mining examples
 
 ## Setup
 
