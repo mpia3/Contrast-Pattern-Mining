@@ -1,6 +1,6 @@
 #const minSup=2.
 #const maxLength=3.
-%#const minLength = 1. % STERL param for minimum lenght constraint
+%#const minLength = 1. %param for minimum lenght constraint
 #const minDiff = 1.
 #const class=positive.
 
@@ -28,13 +28,13 @@ absolute_diff(D) :- N = #count{ T : in_support(T)}, M = #count{T : out_support(T
 %absolute growth-rate constraint (patterns with absolute support difference LOWER than minDif cannot be considered contrast patterns)
 :- absolute_diff(D), D < minDiff.
 
-% STERL constraint for specific db with none line 
+%constraint for specific db with none line 
 :- in_pattern(caller(none)).
 :- in_pattern(callee(none)).
 :- in_pattern(street_a(none)).
 :- in_pattern(street_b(none)).
 
-% STERL constraint for pattern of minimum lenght
+%constraint for pattern of minimum lenght
 %:- #count{T : in_pattern(T)} < minlen.
 
 %print an answer-set as made of the facts listed in in_pattern/1 and absolute_diff/1
