@@ -2,7 +2,7 @@
 A declarative approach to Contrast Pattern Mining in Answer Set Programming (ASP)
 
 ## Contents
-- folder 'asp_encodigs': contrast pattern mining encoding
+- folder 'asp_encodings': contrast pattern mining encoding
 - folder 'examples': contrast pattern mining examples
 
 ## Setup
@@ -16,7 +16,7 @@ For running the solution adopted on Windows:
 ''conda create –n potassco –c conda-forge clingo=5.4.0'' then
 ''conda activate potassco''
 
-for more detail about clingo tool see: https://potassco.org/clingo/
+For more details about clingo see: https://potassco.org/clingo/
 
 ## Example
 From the command line run: "clingo asp_encodings/absolute_emerging.lp examples/normal_cancer_db.lp -c minSup=2 -c maxLength=3 -c class=normal -c minDiff=0 -c minLength=1 -n0"
@@ -80,9 +80,13 @@ Output like this:
   Calls        : 1  
   Time         : 0.050s (Solving: 0.01s 1st Model: 0.00s Unsat: 0.00s)  
   CPU Time     : 0.021s"  
-  
-- normal_cancer_db.lp: problem definition  
-- absolute_emerging.lp: contrast patterns generator
 
-## Acknowledgments
+## Project team
+- Gioacchino Sterlicchio, Department of Mechanics, Mathematics and Management, Polytechnic University of Bari
+- Prof. Francesca Alessandra Lisi, Dept. of Computer Science, University of Bari
+
+## Publications
+- Lisi, F.A., Sterlicchio, G.: A declarative approach to constrast pattern mining. In: Dovier, A., Montanari, A., Orlandini, A. (eds.) 21st International Conference of the Italian Association for Artificial Intelligence (AIxIA 2022), Udine, Italy, October 28-November 2, 2022, Proceedings. Lecture Notes in Computer Science, vol. 13796, pp. ?–? Springer (2022) (accepted for submission and publication)
+
+## Acknowledgements
 This is an extract from Gioacchino Sterlicchio's master degree thesis in Cybersecurity at University of Bari. This work is based from COST Action 17124 ``Digital forensics: evidence analysis via intelligent systems and practices (DigForASP)'', supported by COST (European Cooperation in Science and Technology). Special thanks to Prof. Francesca Alessandra Lisi, from University of Bari, supervisor of the master's degree thesis.
